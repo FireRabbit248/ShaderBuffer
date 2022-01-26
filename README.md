@@ -1,12 +1,11 @@
 # Godot FrameBuffer Object
 
+## Usecases
+* Conways Game of Life as a shader
+* Blur shader (blur input is the previous frame)
+
 ## Node Setup
-* Node2D
-  * Viewport (Channel0)
-    * Sprite
-  * Viewport (Channel0_buf)
-    * Sprite
-  * Sprite (Output)
+![Nodestructure](https://user-images.githubusercontent.com/82725304/151080515-c89e50ee-0ce2-4faf-9f53-36b9126b9b23.PNG)
 
 ## How does it work?
 The main shader runs on the sprite of ```Channel0```.
@@ -33,14 +32,23 @@ the texture at the ```second frame``` to the Viewport ```Channel0_buf```.
   * Usage -> 2D
 * Render Target
   * Clear Mode -> Next Frame
-  * Update -> Always
+  * Update -> Always!
+
+
+![ViewportSetup](https://user-images.githubusercontent.com/82725304/151080699-450d37b5-0202-4109-9779-138eb6163ff8.PNG)
+
   
 ## Sprite Setup
 * Offset
   * Centered -> unticked
   * Flip V -> ticked (not for the output sprite)
+
+
+![SpriteSetup](https://user-images.githubusercontent.com/82725304/151080934-fc185b5a-c748-409a-9b64-078b20b35835.PNG)
   
 ## Texture Sources (who uses which texture?)
 * Channel0 Sprite: Input image
 * Channel0_buf Sprite: Viewport Channel0
 * Output: Channel0
+
+

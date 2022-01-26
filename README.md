@@ -2,7 +2,13 @@
 
 ## Usecases
 * Conways Game of Life as a shader
+
+
+![GameOfLife](https://user-images.githubusercontent.com/82725304/151081379-f8a105ab-a368-460a-bd99-fc4e79fc2ca9.png)
 * Blur shader (blur input is the previous frame)
+
+
+![GameOfLife](https://user-images.githubusercontent.com/82725304/151081630-cae03268-ece9-4558-af99-fedf9ad5b28a.png)
 
 ## Node Setup
 ![Nodestructure](https://user-images.githubusercontent.com/82725304/151080515-c89e50ee-0ce2-4faf-9f53-36b9126b9b23.PNG)

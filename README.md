@@ -57,4 +57,7 @@ the texture at the ```second frame``` to the Viewport ```Channel0_buf```.
 * Channel0_buf Sprite: Viewport Channel0
 * Output: Channel0
 
+# Inspiration
+https://www.youtube.com/watch?v=v48O7Nk_n4g
+Godot 3.1+ very minimal Shadertoy logic with FBO by Danil S
 
